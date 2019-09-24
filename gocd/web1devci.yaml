@@ -1,5 +1,5 @@
 pipelines:
-  visual:
+  visual-files:
     group: common
     label_template: "${COUNT}"
     materials:
