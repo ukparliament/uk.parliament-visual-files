@@ -3,7 +3,7 @@ pipelines:
     group: common
     label_template: "${COUNT}"
     materials:
-      fuelling-the-debate-git:
+      visual-files-git:
         git: https://github.com/ukparliament/uk.parliament-visual-files.git
         branch: development
         auto_update: true
