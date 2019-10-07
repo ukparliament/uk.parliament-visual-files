@@ -19,4 +19,5 @@ deploy_to_release:
 		--exclude ".git/*" \
 		--exclude "gocd/*" \
 		--exclude "Makefile" \
-		--exclude "README.md" 
+		--exclude "README.md" \
+		--acl=public-read --delete . s3://$(AWS_ACCOUNT).visual-files
