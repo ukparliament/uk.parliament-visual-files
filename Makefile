@@ -19,4 +19,4 @@ deploy_to_release:
 		--exclude ".git/*" \
 		--exclude "gocd/*" \
 		--exclude "Makefile" \
-		--exclude "README.md" \
+		--exclude "README.md" 
