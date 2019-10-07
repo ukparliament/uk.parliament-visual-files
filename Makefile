@@ -20,3 +20,4 @@ deploy_to_release:
 		--exclude "Makefile" \
 		--exclude "README.md" \
 		--acl=public-read --delete . s3://$(AWS_ACCOUNT).visual-files
+
