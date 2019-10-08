@@ -5,7 +5,7 @@ pipelines:
     materials:
       visual-files-git:
         git: https://github.com/ukparliament/uk.parliament-visual-files.git
-        branch: development
+        branch: master
         auto_update: true
     stages:
       - deploy:
