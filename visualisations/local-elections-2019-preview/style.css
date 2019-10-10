@@ -1,7 +1,9 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700,400i,400i";
+
 body {
     max-width: 750px;
     text-align: center;
-    font-family: Tahoma, sans-serif;
+    font-family: Tahoma, "Open Sans", sans-serif;
 }
 
 #vis-title {
