@@ -1,6 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans:400,700,400i,400i";
 
 body {
+    padding: 5px;
+    margin: 0;
     max-width: 750px;
     text-align: center;
     font-family: Tahoma, "Open Sans", sans-serif;
@@ -11,12 +13,11 @@ body {
     color: #333333;
 }
 
-#vis-container {
+/* #vis-container {
     display: inline-block;
     position: relative;
     width: 100%;
     padding-bottom: 90%;
-    overflow: hidden;
 }
 
 #vis {
@@ -24,13 +25,13 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-}
+} */
 
 #infobox {
     position: absolute;
     text-align: center;
     padding: 5px 10px 5px 10px;
-    font-size: 11pt;
+    font-size: 10pt;
     background: #ffffff;
     border: 2px solid #d0d0d0;
     border-radius: 6px;
